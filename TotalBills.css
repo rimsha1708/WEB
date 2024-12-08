@@ -1,0 +1,50 @@
+.total-bills-container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .title {
+    text-align: center;
+    color: #3f51b5;
+    margin-bottom: 20px;
+  }
+  
+  .revenue-section {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    color: #4caf50;
+    font-weight: bold;
+  }
+  
+  .bills-table table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .bills-table th,
+  .bills-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .bills-table th {
+    background-color: #f2f2f2;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .bills-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .bills-table tr:hover {
+    background-color: #ddd;
+  }
+  

@@ -1,0 +1,64 @@
+.dashboard-container {
+    display: flex;
+    height: 100vh;
+    background-color: #f5f5f5; /* Light background color */
+    width: 100%;
+  }
+  
+  .sidebar {
+    width: 250px;
+    background: #ffffff;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    border-right: 1px solid #e0e0e0;
+    padding: 20px;
+  }
+  
+  .logo-container {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .logo {
+    max-width: 80%;
+    border-radius: 50%;
+  }
+  
+  .sidebar-title {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #1976d2;
+  }
+  
+  .main-content {
+    flex-grow: 1;
+    padding: 30px;
+  }
+  
+  .main-title {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  
+  .stat-card {
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .stat-value {
+    font-weight: bold;
+  }
+  
+  .stat-description {
+    color: #888;
+  }
+  
+  .divider {
+    margin: 40px 0;
+  }
+  
+  .chart-title {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  

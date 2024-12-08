@@ -1,0 +1,58 @@
+.see-bill-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .title {
+    text-align: center;
+    color: #3f51b5;
+    margin-bottom: 20px;
+  }
+  
+  .bills-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .bills-table th,
+  .bills-table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+  }
+  
+  .edit-btn,
+  .save-btn,
+  .cancel-btn {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9em;
+  }
+  
+  .edit-btn {
+    background-color: #42a5f5;
+    color: white;
+  }
+  
+  .save-btn {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .cancel-btn {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .edit-btn:hover,
+  .save-btn:hover,
+  .cancel-btn:hover {
+    opacity: 0.8;
+  }
+  
